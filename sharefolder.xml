@@ -1,242 +1,92 @@
-SailPoint LogoSkip to ContentCustom logo goes here
-Dashboards and Quick Links panel. Press ENTER or space to access dashboards and quick links grouped by category.
-Home
-My Work menu. Press ENTER or space to access submenu. To move through items press up or down arrow.
-Identities menu. Press ENTER or space to access submenu. To move through items press up or down arrow.
-Applications menu. Press ENTER or space to access submenu. To move through items press up or down arrow.
-Intelligence menu. Press ENTER or space to access submenu. To move through items press up or down arrow.
-Setup menu. Press ENTER or space to access submenu. To move through items press up or down arrow.
- Debugmenu. Press ENTER or space to access submenu. To move through items press up or down arrow.
- Adminmenu. Press ENTER or space to access submenu. To move through items press up or down arrow.
-Work Items
-The Administrator
-User
- 	 	Object Browser
- 	 
- 	 	
- 	 
- 
-Application
-Filter by Name or ID
-
-Configuration Objects
-
-Run Rule
-Select an action
-
- 
-
- 
-Page
-1
-of 1
- 
-
- 
-
- 
-Show
-25
-itemsDisplaying 1 - 4 of 4
- 
- 	 	
-© Copyright 2019 SailPoint Technologies - All rights reserved.
- 	 
- 
-
- 
-
- 
-
- 
-SailPoint
-1
 <?xml version='1.0' encoding='UTF-8'?>
-2
 <!DOCTYPE Application PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-3
 <Application connector="sailpoint.connector.DelimitedFileConnector" created="1746791773304" featuresString="DIRECT_PERMISSIONS, NO_RANDOM_ACCESS, DISCOVER_SCHEMA" icon="enterpriseIcon" id="c0a8010996ac12758196b4e734750496" name="Sharefolder" profileClass="" type="DelimitedFile">
-4
   <Attributes>
-5
     <Map>
-6
       <entry key="afterProvisioningRule"/>
-7
       <entry key="beforeProvisioningRule"/>
-8
       <entry key="compositeDefinition"/>
-9
       <entry key="delimiter" value=","/>
-10
       <entry key="file" value="C:\App data\Book(Sheet1).csv"/>
-11
       <entry key="filetransport" value="local"/>
-12
       <entry key="filterEmptyRecords">
-13
         <value>
-14
           <Boolean>true</Boolean>
-15
         </value>
-16
       </entry>
-17
       <entry key="group.filetransport" value="local"/>
-18
       <entry key="group.filterEmptyRecords">
-19
         <value>
-20
           <Boolean>true</Boolean>
-21
         </value>
-22
       </entry>
-23
       <entry key="group.partitionMode" value="auto"/>
-24
       <entry key="hasHeader">
-25
         <value>
-26
           <Boolean>true</Boolean>
-27
         </value>
-28
       </entry>
-29
       <entry key="isCaseInsensitiveMerge">
-30
         <value>
-31
           <Boolean></Boolean>
-32
         </value>
-33
       </entry>
-34
       <entry key="isSortedByIndexColumn">
-35
         <value>
-36
           <Boolean></Boolean>
-37
         </value>
-38
       </entry>
-39
       <entry key="mergeRows">
-40
         <value>
-41
           <Boolean></Boolean>
-42
         </value>
-43
       </entry>
-44
       <entry key="nativeChangeDetectionAttributeScope" value="entitlements"/>
-45
       <entry key="nativeChangeDetectionAttributes"/>
-46
       <entry key="nativeChangeDetectionEnabled">
-47
         <value>
-48
           <Boolean></Boolean>
-49
         </value>
-50
       </entry>
-51
       <entry key="nativeChangeDetectionOperations"/>
-52
       <entry key="parseType" value="delimited"/>
-53
       <entry key="partitionMode" value="auto"/>
-54
       <entry key="stopIfLineHasWrongColumnLength">
-55
         <value>
-56
           <Boolean></Boolean>
-57
         </value>
-58
       </entry>
-59
       <entry key="sysDescriptions">
-60
         <value>
-61
           <Map>
-62
             <entry key="en_US"/>
-63
           </Map>
-64
         </value>
-65
       </entry>
-66
       <entry key="templateApplication" value="DelimitedFile Template"/>
-67
     </Map>
-68
   </Attributes>
-69
   <Owner>
-70
     <Reference class="sailpoint.object.Identity" id="c0a801129668128d819668f3874400e3" name="spadmin"/>
-71
   </Owner>
-72
   <Schemas>
-73
     <Schema created="1746791773305" displayAttribute="first name" id="c0a8010996ac12758196b4e734790498" identityAttribute="Emp_id" instanceAttribute="" nativeObjectType="account" objectType="account" permissionsRemediationModificationType="None">
-74
       <AttributeDefinition name="Emp_id" type="string">
-75
         <Description></Description>
-76
       </AttributeDefinition>
-77
       <AttributeDefinition name="first name" type="string">
-78
         <Description></Description>
-79
       </AttributeDefinition>
-80
       <AttributeDefinition name="last name" type="string">
-81
         <Description></Description>
-82
       </AttributeDefinition>
-83
       <AttributeDefinition name="designation" type="string">
-84
         <Description></Description>
-85
       </AttributeDefinition>
-86
       <AttributeDefinition name="email" type="string">
-87
         <Description></Description>
-88
       </AttributeDefinition>
-89
     </Schema>
-90
   </Schemas>
-91
   <ApplicationScorecard created="1746791773302" id="c0a8010996ac12758196b4e734760497" modified="1746791774636"/>
-92
 </Application>
-93
-​
-
-Save
-
-Close
